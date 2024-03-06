@@ -16,8 +16,7 @@
   
 
 
-    const app = express();
-    app.use(express.static('public'));
+    
 
     // Define a route to serve the HTML page
     app.get('/', (req, res) => {

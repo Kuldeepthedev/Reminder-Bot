@@ -13,17 +13,7 @@
     const app = express();
     app.use(express.static('public'));
 
-    // Define a route to serve the HTML page
-        const venom = require('venom-bot');
-    const express = require('express');
-    const connectDB = require('./dbconnect');
-    require('dotenv').config();
-    const axios = require('axios');
-    const WhatsAppGroup = require('./DatabaseModel/GroupModel');
-    const Reminder = require('./DatabaseModel/ReminderModel');
-    const WhatsappContect = require('./DatabaseModel/ContectModel')
-    const user = require('./DatabaseModel/UserModel')
-    const fs = require('fs');
+  
 
 
     const app = express();
